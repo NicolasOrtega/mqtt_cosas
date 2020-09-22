@@ -1,3 +1,7 @@
+# Esta es la fusión de tu programa con la comunicación MQTT. Sugiero que al nombre de la foto que saca como resultado se le sume el nombre del tópico, cosa de que 
+# se identifique desde que "cámara" está tomando la foto. 
+# Respecto de eso, yo elegí arbitrariamente diferenciar las cámaras a través de los tópicos y no de los mensajes, lo encontré más sencillo. No es necesariamente
+# la mejor opción, simplemente fue la más rápida que se me ocurrió. 
 import cv2
 from human_detector import HumanDetector
 import paho.mqtt.client as mqtt
